@@ -1,0 +1,26 @@
+{
+  "name": "Clay.Project",
+  "version": "1.0.0",
+  "description": "White: #ececec\r Blue (main): #3771c8\r Gradient: #3771c8 / #37b4c8",
+  "main": "tailwind.config-full.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build source/style.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MontyKing/Clay.Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MontyKing/Clay.Project/issues"
+  },
+  "homepage": "https://github.com/MontyKing/Clay.Project#readme"
+}
