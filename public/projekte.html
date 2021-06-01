@@ -1,38 +1,77 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clay - Projekte</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body class="bg-gray-200 text-gray-900 h-screen">
+  <body class="bg-gray-200 text-gray-900 h-screen">
     <div class="h-full">
-        <div class="bg-gray-50 shadow-sm">
-            <nav class="flex flex-row w-4/5 m-auto justify-between">
-                <img src="img/favicon.png" class="w-12 m-2" />
-                <ul class="hidden sm:flex sm:flex-row sm:items-center" id="list-menu">
-                    <li class="pl-4 m-2 hover:text-gray-600"><a href="index.html">Start</a></li>
-                    <li class="pl-4 m-2 hover:text-gray-600"><a href="projekte.html">Projekte</a></li>
-                    <li class="pl-4 m-2 hover:text-gray-600"><a href="#">Über</a></li>
-                </ul>
+      <div class="bg-gray-50 shadow-sm">
+        <nav class="flex flex-row w-3/4 m-auto justify-between">
+          <img src="img/favicon.png" class="w-12 h-12 m-2" />
+          <ul class="hidden sm:flex sm:flex-row sm:items-center" id="list-menu">
+            <li class="pl-4 m-2 hover:text-gray-600">
+              <a href="index.html">Start</a>
+            </li>
+            <li class="pl-4 m-2 hover:text-gray-600">
+              <a href="projekte.html">Projekte</a>
+            </li>
+            <li class="pl-4 m-2 hover:text-gray-600"><a href="#">Über</a></li>
+          </ul>
 
-                <svg class="w-6 h-6 self-center sm:hidden" id=burger-menu fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            class="w-6 h-6 self-center sm:hidden"
+            id="burger-menu"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
               fill-rule="evenodd"
               d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
               clip-rule="evenodd"
             ></path>
           </svg>
-            </nav>
+        </nav>
+        <div
+          class="sm:hidden hidden text-center text-xl h-auto"
+          id="mobile-menu"
+        >
+          <ul>
+            <li
+              class="
+                p-8
+                border-t border-opacity-50 border-gray-300
+                hover:text-gray-600
+              "
+            >
+              <a href="index.html">Start</a>
+            </li>
+            <li
+              class="
+                p-8
+                border-t border-opacity-50 border-gray-300
+                hover:text-gray-600
+              "
+            >
+              <a href="projekte.html">Projekte</a>
+            </li>
+            <li
+              class="
+                p-8
+                border-t border-opacity-50 border-gray-300
+                hover:text-gray-600
+              "
+            >
+              <a href="#">Über</a>
+            </li>
+          </ul>
         </div>
-
+      </div>
     </div>
     <script src="js/index.js"></script>
-</body>
-
-</html>
-
+  </body>
 </html>

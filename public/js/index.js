@@ -1,11 +1,10 @@
 const burgerMenu = document.getElementById("burger-menu");
-const menuList = document.getElementById("list-menu")
+const mobileMenu = document.getElementById("mobile-menu");
 
 burgerMenu.addEventListener("click", function extendMenu() {
-    if (menuList.classList.contains("hidden")) {
-        menuList.classList.remove("hidden")
-    }
-    else {
-        menuList.classList.add("hidden")
-    }
+  if (mobileMenu.classList.contains("hidden")) {
+    mobileMenu.classList.remove("hidden");
+  } else {
+    mobileMenu.classList.add("hidden");
+  }
 });
